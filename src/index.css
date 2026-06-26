@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Playfair Display', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-gold: #c5a059;
+  --color-gold-hover: #d5ab55;
+  --color-navy-deep: #0a1c3e;
+  --color-navy-dark: #07152d;
+  --color-navy-light: #0d2858;
+}
+
+/* Glass gradient helper */
+.bg-glass-radial {
+  background-color: #08152b;
+  background-image: radial-gradient(circle at center, #0a1c3a 0%, #061122 100%);
+}
+
+/* Custom scrollbar matching high-end design styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050b1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.4);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Range input styling overrides for custom experience */
+input[type="range"]::-webkit-slider-thumb {
+  border: 1px solid #D4AF37;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #0A1128;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+

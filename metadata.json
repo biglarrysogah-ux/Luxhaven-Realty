@@ -1,0 +1,6 @@
+{
+  "name": "Luxhaven Realty",
+  "description": "Modern luxury real estate website with high-end architecture, property listings, booking system, and private owner dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
